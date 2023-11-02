@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jogo-da-velha/static/css/main.e195e77a.css",
+    "main.js": "/jogo-da-velha/static/js/main.0e50b9c8.js",
+    "index.html": "/jogo-da-velha/index.html",
+    "main.e195e77a.css.map": "/jogo-da-velha/static/css/main.e195e77a.css.map",
+    "main.0e50b9c8.js.map": "/jogo-da-velha/static/js/main.0e50b9c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e195e77a.css",
+    "static/js/main.0e50b9c8.js"
+  ]
+}
