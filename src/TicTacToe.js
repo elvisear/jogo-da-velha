@@ -47,12 +47,15 @@ function TicTacToe() {
         if(cells.every(cell => cell ==="O")) setWinner("O");
         if(cells.every(cell => cell ==="X")) setWinner("X");
       });
+
+      checkDraw();
+
     }
     
-    const checkDraw = () => {
+    const checkDraw = () =>{
       if(board.every(item => item !== "")) {
         //empate!
-        setWinner("E");
+       setWinner("E");
       }
     }
 
@@ -92,15 +95,23 @@ function TicTacToe() {
       <footer>
         {winner === "E" ?
         <h2 className="winner-message">
-          <span className={winner}>O jogo empatou!</span>
+          <span className={winner}>
+            <span className="X">X</span>
+            <span className="O">O</span>
+          </span>
+          <span className={winner}>
+          EMPATE!
+          </span>
         </h2>
         :
         <h2 className="winner-message">
-          O jogador <span className={winner}>{winner}</span> venceu!
+          <span className={winner}>{winner}</span>
+          <span className="E">
+          VENCEDOR!
+          </span>
         </h2>
         }
-
-        <button onClick={resetGame}>Recomeçar o jogo</button>
+        <button onClick={resetGame}>RECOMEÇAR</button>
       </footer>
       }
     </main>

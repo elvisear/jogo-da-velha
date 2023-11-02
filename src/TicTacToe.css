@@ -74,14 +74,20 @@ footer{
 }
 
 .winner-message {
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
 }
 
 .winner-message span.O {
+  font-size: 2.5em;
   color: var(--O-color);
 }
 
 .winner-message span.X {
+  font-size: 2.5em;
   color: var(--X-color);
 }
 
@@ -91,7 +97,7 @@ footer{
 
 button {
  padding: 0.8rem 1.5rem;
- border: none;
+ border: 1px solid rgba(16, 117, 3, 0.329);
  border-radius: 5px;
  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.06);
  background-color: var(--green);
