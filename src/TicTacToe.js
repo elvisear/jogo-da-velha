@@ -48,18 +48,18 @@ function TicTacToe() {
         if(cells.every(cell => cell ==="X")) setWinner("X");
       });
 
-      checkDraw();
-
     }
     
     function checkDraw(){
-      if(board.every(item => item !== "")) {
+      if(board.every(item => item !== "" && winner === null)) {
         //empate!
        return setWinner("E");
       }
     }
 
     useEffect(checkWinner, [board]);
+
+    checkDraw();
 
     function startingPlayer(min, max) {
       min = Math.ceil(min);
