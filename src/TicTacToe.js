@@ -52,10 +52,10 @@ function TicTacToe() {
 
     }
     
-    const checkDraw = () =>{
+    function checkDraw(){
       if(board.every(item => item !== "")) {
         //empate!
-       setWinner("E");
+       return setWinner("E");
       }
     }
 
