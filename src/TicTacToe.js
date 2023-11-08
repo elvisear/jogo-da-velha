@@ -92,7 +92,7 @@ function TicTacToe() {
       </div>
 
       {winner &&
-      <footer>
+      <div className="menu">
         {winner === "E" ?
         <h2 className="winner-message">
           <span className={winner}>
@@ -112,7 +112,7 @@ function TicTacToe() {
         </h2>
         }
         <button onClick={resetGame}>RECOMEÇAR</button>
-      </footer>
+      </div>
       }
     </main>
   );
