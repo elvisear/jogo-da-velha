@@ -86,7 +86,7 @@ function TicTacToe() {
       <div className="display">
         {(!winner || !winner === "E") ? (
           <h2 className="current-player">
-            Jogada do
+            Jogada do:
             <strong className={currentPlayer}> {currentPlayer}</strong>
           </h2>
         ) : (<h2 className="current-player">Aguardando próximo jogador...</h2>)}

@@ -44,7 +44,8 @@ body {
   height: 80px;
   font-size: 2rem;
   color: #555;
-  gap: 8px;
+  gap: 10px;
+  text-shadow: rgba(0, 0, 0, 0.12) 1px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .current-player strong.O {
