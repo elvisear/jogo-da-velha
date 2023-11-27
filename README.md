@@ -2,7 +2,7 @@
 
 <p align="center">
 Excelente e lindo Jogo da Velha produzido para atender ao desafio do pdCafé. <br/>
-<a href="https://www.youtube.com/watch?v=kFXDcaUcOto">Estude esse projeto em formato de vídeo clicando aqui.</a>
+<a href="https://www.youtube.com/watch?v=kFXDcaUcOto" target="_blank">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
 <p align="center">
